@@ -34,11 +34,11 @@ The 2022–23 UEFA Champions League Final was held at the Atatürk Olympic Stadi
 ## 🚀 How to Run
 
 1. **Clone the Repository**:
-   git clone https://github.com/NilkanthSuthar/UEFA-Champions-League-Final-22-23.git
-   cd UEFA-Champions-League-Final-22-23
+   ```git clone https://github.com/NilkanthSuthar/UEFA-Champions-League-Final-22-23.git```
+   ```cd UEFA-Champions-League-Final-22-23```
    
-3. **Launch Jupyter Notebook**:
-   jupyter notebook main.ipynb
+2. **Launch Jupyter Notebook**:
+   ```jupyter notebook main.ipynb```
 
 ---
 
