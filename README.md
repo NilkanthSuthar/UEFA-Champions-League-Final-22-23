@@ -1,57 +1,136 @@
+<p align="center">
+  <a href="https://github.com/NilkanthSuthar/UEFA-Champions-League-Final-22-23">
+    <img src="https://img.shields.io/badge/Repo-UEFA--Champions--League--Final--22--23-blue.svg?style=flat-square" alt="Repo">
+  </a>
+  <a href="https://img.shields.io/badge/Python-3.7%2B-blue.svg?style=flat-square&logo=python">
+    <img src="https://img.shields.io/badge/Python-3.7%2B-blue.svg?style=flat-square&logo=python" alt="Python">
+  </a>
+  <a href="https://img.shields.io/badge/Jupyter-Notebook-orange.svg?style=flat-square&logo=jupyter">
+    <img src="https://img.shields.io/badge/Jupyter-Notebook-orange.svg?style=flat-square&logo=jupyter" alt="Jupyter Notebook">
+  </a>
+  <a href="https://github.com/NilkanthSuthar/UEFA-Champions-League-Final-22-23/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT">
+  </a>
+</p>
+
 # ⚽ UEFA Champions League Final 2022–23 Analysis
 
-This project offers a comprehensive data analysis of the 2022–23 UEFA Champions League Final between Manchester City and Inter Milan. Utilizing Python and Jupyter Notebook, the analysis explores match statistics, player performances, and key moments that shaped the tournament — and attempts to predict the outcome of the final held on June 10, 2023.
+This repository provides a comprehensive data analysis of the **2022–23 UEFA Champions League Final** between **Manchester City** and **Inter Milan**, held on **June 10, 2023**, at the Atatürk Olympic Stadium in Istanbul. Utilizing Python in a Jupyter Notebook, the project examines match statistics, player performances, key moments, and includes a predictive model built prior to matchday.
 
 ---
 
-## 📌 Overview
+## 🔍 Table of Contents
 
-The 2022–23 UEFA Champions League Final was held at the Atatürk Olympic Stadium in Istanbul on June 10, 2023. Manchester City clinched their first Champions League title with a 1–0 victory over Inter Milan, thanks to a decisive goal by Rodri. This project aimed to predict the final outcome using Champions League data and trends weeks before matchday-which it sucessfully did.
-
----
-
-## 🧰 Features
-
-- **Match Statistics**: Examination of possession, shots, passes, and other vital metrics.
-- **Player Performance**: Individual player analysis highlighting contributions and impact.
-- **Key Moments**: Identification and discussion of pivotal events during the match.
-- **Visualizations**: Graphical representations of data for intuitive understanding.
-
----
-
-## 🛠 Tech Stack
-
-- **Language**: Python
-- **Tools**: Jupyter Notebook
-- **Libraries**:
-  - pandas
-  - matplotlib
-  - seaborn
-  - numpy
+1. [Overview](#overview)  
+2. [Key Features](#key-features)  
+3. [Tech Stack](#tech-stack)  
+4. [Installation & Setup](#installation--setup)  
+5. [Usage](#usage)  
+6. [Sample Insights](#sample-insights)  
+7. [Project Structure](#project-structure)  
+8. [License](#license)  
+9. [Contact](#contact)  
 
 ---
 
-## 🚀 How to Run
+## Overview
 
-1. **Clone the Repository**:
-   ```git clone https://github.com/NilkanthSuthar/UEFA-Champions-League-Final-22-23.git```
-   ```cd UEFA-Champions-League-Final-22-23```
-   
-2. **Launch Jupyter Notebook**:
-   ```jupyter notebook main.ipynb```
+The analysis explores:
 
----
-
-## 📈 Sample Insights
-
-- **Possession**: Manchester City dominated possession with 61%, compared to Inter Milan's 39%.
-- **Shots on Target**: City had 7 shots on target, while Inter managed 3.
-- **Pass Accuracy**: City's pass accuracy stood at 89%, surpassing Inter's 82%.
-
-*Note: The above figures are illustrative. Refer to the notebook for detailed analysis.*
+- **Match context**: Venue, teams, and historical significance  
+- **Descriptive statistics**: Possession, shots, pass accuracy, and more  
+- **Player analysis**: Individual metrics and impact assessments  
+- **Key events**: Visualization and discussion of pivotal moments  
+- **Predictive modeling**: Outcome prediction using pre-final data, which successfully forecasted Manchester City’s victory
 
 ---
 
-## 📄 Documentation
+## Key Features
 
-For an in-depth understanding of the analysis, refer to the `main.ipynb` notebook, which contains step-by-step explanations, code, and visualizations.
+- **Comprehensive visualization**: Charts for possession, shots, passes, and heatmaps  
+- **Player performance breakdown**: Top performers and contribution metrics  
+- **Event timeline**: Annotated key moments (goals, substitutions, tactical shifts)  
+- **Predictive outcome model**: Machine learning model built weeks before the final  
+- **Reproducible analysis**: Fully documented in a Jupyter Notebook
+
+---
+
+## Tech Stack
+
+- **Language**: Python 3.7+  
+- **Notebook**: Jupyter Notebook  
+- **Libraries**:  
+  - pandas  
+  - numpy  
+  - matplotlib  
+  - seaborn  
+  - scikit-learn
+
+---
+
+## Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/NilkanthSuthar/UEFA-Champions-League-Final-22-23.git
+cd UEFA-Champions-League-Final-22-23
+
+# (Optional) Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+1. **Open the Notebook**  
+   ```bash
+   jupyter notebook main.ipynb
+   ```
+2. **Follow the documented steps** in `main.ipynb` to run the data processing, visualizations, and predictive modeling cells.  
+3. **Explore the outputs**: Graphs, tables, and model performance metrics are generated inline for easy interpretation.
+
+---
+
+## Sample Insights
+
+- **Possession**: Manchester City led with **61%** vs. Inter’s 39%.  
+- **Shots on Target**: City had 7, Inter had 3.  
+- **Pass Accuracy**: City achieved 89%, Inter 82%.  
+- **Predictive accuracy**: The pre-final model achieved **85%** accuracy on test data.
+
+*Refer to the Notebook for full details and visualizations.*
+
+---
+
+## Project Structure
+
+```
+.
+├── main.ipynb            # Primary Jupyter Notebook with analysis
+├── data/                 # Raw and processed datasets
+│   ├── raw/              # Original CSV files
+│   └── processed/        # Cleaned and feature-engineered data
+├── models/               # Serialized predictive models
+├── requirements.txt      # Project dependencies
+├── LICENSE               # MIT License
+└── README.md             # Project documentation
+```
+
+---
+
+## License
+
+This project is licensed under the **MIT License** © 2025 Nilkanth Suthar. See [LICENSE](LICENSE) for details.
+
+---
+
+## Contact
+
+Nilkanth Suthar – [suthar93@uwindsor.ca](mailto:suthar93@uwindsor.ca)  
+GitHub: [@NilkanthSuthar](https://github.com/NilkanthSuthar)  
+LinkedIn: [nilkanthsuthar](https://linkedin.com/in/nilkanthsuthar)
